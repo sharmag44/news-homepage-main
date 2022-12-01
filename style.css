@@ -1,0 +1,43 @@
+* {
+      padding: 0px;
+      margin: 0px;
+}
+body {
+      margin: 8%;
+      font-family: interFont;
+}
+main {
+      height: 100vh;
+}
+
+@font-face {
+      font-family: interFont;
+      src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+.header {
+      display: grid;
+      grid-template-columns: 30% 70%;
+      column-gap: 5%;
+}
+.header__nav > ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+}
+li {
+      list-style: none;
+}
+li > a {
+      text-decoration: none;
+}
+.web3 {
+      margin-top: 3%;
+      display: grid;
+      grid-template-columns: 49% 51%;
+      grid-row: 2%;
+}
+.web3__image_file {
+      height: 390px;
+      width: 796px;
+}
